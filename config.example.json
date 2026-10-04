@@ -1,0 +1,35 @@
+{
+  "appKey": "cx-dev#cxstudy",
+  "imTokenUrl": "https://learn.chaoxing.com/apis/user/getUserImToken",
+  "cookie": "",
+  "hxToken": "",
+  "hxTokenImportedAt": "",
+  "tuid": "",
+  "puid": "",
+  "onebot": {
+    "mode": "reverse",
+    "accessToken": "",
+    "wsHost": "127.0.0.1",
+    "wsPort": 6700,
+    "reverseWsUrl": "ws://127.0.0.1:6199/ws",
+    "httpHost": "127.0.0.1",
+    "httpPort": 0,
+    "httpPostUrl": "",
+    "heartbeatInterval": 5000,
+    "reconnectInterval": 3000,
+    "downTimeoutMs": 60000,
+    "profileSource": "none",
+    "cloudDiskDownload": "api",
+    "cookieInvalidAction": "qr",
+    "markRead": true,
+    "restart": "auto",
+    "onlyAfterStartup": true,
+    "startupGraceMs": 10000,
+    "reportMultiDeviceSelf": false,
+    "ffmpegPath": "",
+    "dedup": {
+      "maxSize": 5000,
+      "ttlMs": 21600000
+    }
+  }
+}

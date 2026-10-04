@@ -1,0 +1,31 @@
+{
+  "name": "chaoxing-onebot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "超星学习通（cxstudy）→ OneBot v11 适配器：把学习通群聊/私聊接入 NoneBot2 / Koishi 等标准框架",
+  "license": "MIT",
+  "keywords": [
+    "onebot",
+    "chaoxing",
+    "cxstudy",
+    "学习通",
+    "nonebot",
+    "easemob"
+  ],
+  "main": "onebot.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node supervisor.js",
+    "start:plain": "node onebot.js"
+  },
+  "dependencies": {
+    "easemob-websdk": "4.15.1",
+    "qrcode": "1.5.3",
+    "ws": "8.14.2"
+  },
+  "optionalDependencies": {
+    "ffmpeg-static": "^5.3.0"
+  }
+}

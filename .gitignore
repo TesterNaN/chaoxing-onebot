@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+# 注：package-lock.json 应当提交，用于锁定依赖树、保证团队环境一致
+
+# ⚠️ 凭据：config.json 内含 cookie / hxToken，绝不入库
+config.json
+config.json.*
+!config.example.json
+*.local.json
+
+*.log
+logs/
+*.pid
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+/test/
+/index.js
+/diag-send.js
+/TESTING.md
